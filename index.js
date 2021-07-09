@@ -74,7 +74,7 @@ require('http').createServer((req, res) => res.end('Bot is alive!')).listen(3000
 //============================================================================================================================================================================================================
 
 
-bot.login('ODMwNzA2NTg2MTI4NDgyMzA1.YHKlyw.2vu8gvBR1TjYnvA8X2pzKSpkM_Q');
+bot.login(config.token);
 
 
 
